@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 100%;
+
+}
+section{
+    padding: 0 100px;
+    background: url(src/maxwell-ridgeway-UyhtqolKMb4-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.form_valid {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+     padding: 50px;
+    background: rgba(255, 2555, 255, .2);
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+.place{
+    width: 500px;
+    height: 40px;
+    background-color: rgb(38, 35, 65);
+    border-radius: 8px;
+    font-family: 'lato',Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.placecmnt{
+    width: 500px;
+    height:70px;
+    border-radius: 8px;
+}
+#btn{
+    background: transparent;
+    border: none;
+    color: rgb(248, 249, 255);
+    background: #0ba4eb;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: 16px;
+
+}
+.spn{
+    text-align: left;
+    font-weight: bold;
+    
+}

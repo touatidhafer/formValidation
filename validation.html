@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="validation.css">
+    <title>Form validation</title>
+</head>
+<body>
+    <section>
+        <form class="form_valid" action="#">
+            <span class="spn">First name:</span>
+            <input type="text" name="first-name" id="fname" class="place" ><br>
+            <span class="spn"> Last name: </span class="spn">
+            <input type="text" name="last-name" id="lname" class="place" ><br>
+            <span class="spn"> Adresse:</span>
+            <input type="text" name="adress" id="ad" class="place" ><br>
+            <span class="spn">E-mail adress:</span>
+            <input type="email" name="mail" id="mail" class="place" ><br>
+            <span class="spn">Password:</span>
+            <input type="password" name="password" id="pwd" class="place" ><br>
+            <span class="spn">Comment:</span>
+            <textarea name="comment" id="cmt" class="placecmnt" ></textarea><br>
+            <span id="btn" onclick="validate()">Send</span><br>
+            <input id="btn" type="reset" value="Reset" name="reset">
+
+        </form>
+    </section>
+    <script src="validation.js"></script> 
+</body>
+
+</html>
